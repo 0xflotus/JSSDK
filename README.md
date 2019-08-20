@@ -727,7 +727,7 @@ Parameters:
 Method: switchAPINode  
 Function: Switch node  
 Parameters:   
-	url: API server node address, this address must be the websoket address in the API server node list  
+	url: API server node address, this address must be the websocket address in the API server node list  
 	callback: callback function  
   
 ### Add a new API server node  
@@ -735,14 +735,14 @@ Method: addAPINode
 Function: Add a new API server node  
 Parameters:   
 	name: New node name  
-	url: API server node websoket address  
+	url: API server node websocket address  
 	callback: callback function  
   
 ### Delete API server node  
 Method: deleteAPINode  
 Function: Delete node  
 Parameters:   
-	url: API server node websoket address  
+	url: API server node websocket address  
 	callback: callback function  
   
 ### Monitor connection state changes with API server nodes  
